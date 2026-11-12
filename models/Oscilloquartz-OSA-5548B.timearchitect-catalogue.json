@@ -1,0 +1,409 @@
+{
+  "entries": [
+    {
+      "description": "From Oscilloquartz OSA 5548B SASE datasheet, edition 3 June 2004. Shown as an SSU with the BVA 8600 oscillator, six 2048 kbit/s inputs and one module of sixteen 2048 kbit/s outputs.",
+      "id": "9fc01ad6-4cf9-4ee8-a6b8-4320d6408a02",
+      "name": "Oscilloquartz OSA 5548B",
+      "node": {
+        "clock_type": "g812-type-i",
+        "description": "",
+        "equipment": [
+          [
+            "Vendor",
+            "Oscilloquartz"
+          ],
+          [
+            "Model",
+            "OSA 5548B SASE (Stand-Alone Synchronisation Equipment), the core of the OSA 6500B PRC"
+          ],
+          [
+            "Oscillator",
+            "BVA 8600 (double oven; G.811 for at least 24 h in holdover; < 2E-11/day) or OCXO 8665 (G.812 Type I, V and VI; < 2E-10/day)"
+          ],
+          [
+            "Inputs",
+            "6 slots: 2.048 Mbit/s and 1.544 Mbit/s with SSM, 0.064, 1, 1.544, 2.048, 5 or 10 MHz; up to two GPS receivers, two slots each"
+          ],
+          [
+            "Selection",
+            "Automatic (priority), SSM, performance, majority decision and forced modes"
+          ],
+          [
+            "Outputs",
+            "8 slots of 16: 2.048 Mbit/s and 1.544 Mbit/s with SSM, 2.048 MHz, 64/8 kbit/s CC, 5 and 10 MHz; up to 112 unprotected or 64 protected; more with OSA 5530B expansion sub-racks"
+          ],
+          [
+            "Squelch",
+            "Automatic, configurable, on prolonged holdover"
+          ],
+          [
+            "Redundancy",
+            "Two input line selectors, two tracking oscillator modules, two phase stepper switches, two power supplies"
+          ],
+          [
+            "Power",
+            "Up to 2 supplies: 36-72 V DC, 92-132 V AC or 196-264 V AC"
+          ],
+          [
+            "Size",
+            "ETSI 12U, 532 x 535 x 265 mm; 19 inch 6U, 266 x 483 x 265 mm"
+          ],
+          [
+            "Source",
+            "Oscilloquartz OSA 5548B SASE datasheet, edition 3 June 2004"
+          ]
+        ],
+        "holdover_hours": 24,
+        "holdover_ql": "QL-SSU-A",
+        "id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+        "in_service": true,
+        "kind": "SSU",
+        "name": "",
+        "selector": {
+          "hold_off_ms": null,
+          "mode": "quality",
+          "wait_to_restore_s": null
+        },
+        "site": "",
+        "type": "Oscilloquartz OSA 5548B"
+      },
+      "ports": [
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "02d13650-e134-4aec-973c-61d0761e5940",
+          "in_service": true,
+          "name": "out 8",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "0bd06213-dd8d-4252-a0ce-e8ef68291899",
+          "in_service": true,
+          "name": "out 15",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "18c87d78-e451-41ba-9124-6b327ca0a5c2",
+          "in_service": true,
+          "name": "out 14",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "1c53931a-c0e4-4a91-a213-fbf22c8b9fb2",
+          "in_service": true,
+          "name": "out 2",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "in",
+          "format": "digital",
+          "id": "24686d03-aa68-4d93-a9d0-767a48137365",
+          "in_service": true,
+          "name": "in 6",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": 6,
+          "provisioned_ql": null,
+          "role": "reference-in",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "35895c62-5992-4669-9bf1-6c540f428696",
+          "in_service": true,
+          "name": "out 12",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "3c40f81c-1255-460a-9730-9e24204647ac",
+          "in_service": true,
+          "name": "out 5",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "449232d2-a224-4bf6-9099-5f0da1496e70",
+          "in_service": true,
+          "name": "out 3",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "in",
+          "format": "digital",
+          "id": "4f02d222-e6ad-497f-aaee-55942aef73d9",
+          "in_service": true,
+          "name": "in 4",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": 4,
+          "provisioned_ql": null,
+          "role": "reference-in",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "662c61cc-d0d8-426a-98b9-ead4734d93c3",
+          "in_service": true,
+          "name": "out 10",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "79b9d1c2-c65a-4aa7-9249-68da07a074e7",
+          "in_service": true,
+          "name": "out 6",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "862b0231-a0cd-4855-adb9-53ab03a05a21",
+          "in_service": true,
+          "name": "out 7",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "in",
+          "format": "digital",
+          "id": "958224da-efed-4918-be70-2bbaf1484d38",
+          "in_service": true,
+          "name": "in 1",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": 1,
+          "provisioned_ql": null,
+          "role": "reference-in",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "9b442f16-c271-485d-b5cf-29b7f764dbc5",
+          "in_service": true,
+          "name": "out 4",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "in",
+          "format": "digital",
+          "id": "a2616ecd-6739-4a12-9353-82ec20b54d37",
+          "in_service": true,
+          "name": "in 2",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": 2,
+          "provisioned_ql": null,
+          "role": "reference-in",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "in",
+          "format": "digital",
+          "id": "b52ad662-b7dc-4658-b6d6-dd1b0641e31f",
+          "in_service": true,
+          "name": "in 3",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": 3,
+          "provisioned_ql": null,
+          "role": "reference-in",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "b806065a-f031-4a08-8e94-72b3455077fe",
+          "in_service": true,
+          "name": "out 1",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "bcac4e28-eb45-4c96-8134-6c5b9d22696a",
+          "in_service": true,
+          "name": "out 11",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "e27e7f9b-1c8e-449a-ab07-3a3ae955ead5",
+          "in_service": true,
+          "name": "out 9",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "ef890f03-404e-4253-9057-05a70f1f9737",
+          "in_service": true,
+          "name": "out 13",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "in",
+          "format": "digital",
+          "id": "f2039b94-5e2c-4a13-9f38-13f431ef081b",
+          "in_service": true,
+          "name": "in 5",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": 5,
+          "provisioned_ql": null,
+          "role": "reference-in",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "f934ec9d-dab1-4b23-b884-3e9ace33f385",
+          "in_service": true,
+          "name": "out 16",
+          "node_id": "c3cb8885-268e-444e-ae74-8c2d7253da4c",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        }
+      ],
+      "version": "1.0"
+    }
+  ],
+  "exported_at": "2026-11-12T20:21:52+00:00",
+  "format": "timearchitect.catalogue",
+  "release": "1.0.0.dev87 (TimeSim 1.0.0.dev1, TimeOptimiser 1.0.0.dev1). © 2026 Timeworx. All rights reserved.",
+  "schema_version": "1.0"
+}

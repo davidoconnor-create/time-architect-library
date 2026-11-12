@@ -1,0 +1,23 @@
+{
+  "library": "Time Architect device model library",
+  "models": [
+    {
+      "name": "Marconi OMS 1600",
+      "kind": "NE",
+      "vendor": "Marconi",
+      "version": "1.0",
+      "file": "models/Marconi-OMS-1600.timearchitect-catalogue.json",
+      "sha256": "8a30a7c341a49b9a34148fb66a6e975786d2a52a0389b87dab01d441ecb9f994",
+      "made_with": "1.0.0.dev87"
+    },
+    {
+      "name": "Oscilloquartz OSA 5548B",
+      "kind": "SSU",
+      "vendor": "Oscilloquartz",
+      "version": "1.0",
+      "file": "models/Oscilloquartz-OSA-5548B.timearchitect-catalogue.json",
+      "sha256": "ea61d9bc6e28daa51f308ce737d8cca329d4720ba297784742798729690f8409",
+      "made_with": "1.0.0.dev87"
+    }
+  ]
+}

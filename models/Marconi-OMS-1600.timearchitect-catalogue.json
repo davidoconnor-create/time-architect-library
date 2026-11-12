@@ -1,0 +1,193 @@
+{
+  "entries": [
+    {
+      "description": "From Marconi OMS 1600 Technical Product Description, 221 02-ZAP 117 03/2 Rev C (26 June 2006), release 2.1.2. Shown as an add/drop multiplexer with STM-16 West and East lines and two 2 Mbit/s tributaries.",
+      "id": "beb4ed25-203b-47c2-8aaa-f9601cf77cb6",
+      "name": "Marconi OMS 1600",
+      "node": {
+        "clock_type": "g813-option-1",
+        "description": "",
+        "equipment": [
+          [
+            "Vendor",
+            "Marconi (Ericsson group since January 2006)"
+          ],
+          [
+            "Model",
+            "OMS 1600 release 2.1.2: OMS1684, OMS1664, OMS1634 (standard shelf); OMS1674, OMS1654, OMS1644 (compact shelf)"
+          ],
+          [
+            "Equipment",
+            "SDH multiplexer, 2 Mbit/s to STM-64: terminal, add/drop or cross-connect (G.782)"
+          ],
+          [
+            "SETS",
+            "On the TDM switch unit, 1+1 switch cards"
+          ],
+          [
+            "Timing sources",
+            "T1: two STM-N inputs per slot, 32 in all; T2: two 2 Mbit/s inputs per slot; T3: one of two connectors; SETG: internal oscillator"
+          ],
+          [
+            "Oscillator",
+            "Internal, 4.6 x 10^-6 stability"
+          ],
+          [
+            "T3 and T4",
+            "Two clock inputs and two clock outputs, G.703/G.704"
+          ],
+          [
+            "Line interfaces",
+            "STM-1, STM-4, STM-16, STM-64 (DWDM tuneable STM-64 for MHL3000)"
+          ],
+          [
+            "Power",
+            "48/60 V DC, Power LTU A and B and hold-up"
+          ],
+          [
+            "Source",
+            "Marconi OMS 1600 Technical Product Description, 221 02-ZAP 117 03/2 Rev C (26 June 2006), release 2.1.2"
+          ]
+        ],
+        "id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+        "in_service": true,
+        "kind": "NE",
+        "name": "",
+        "selector": {
+          "hold_off_ms": null,
+          "mode": "quality",
+          "wait_to_restore_s": null
+        },
+        "site": "",
+        "type": "Marconi OMS 1600"
+      },
+      "ports": [
+        {
+          "description": "",
+          "direction": "both",
+          "format": "digital",
+          "id": "105044d4-e54e-47b6-809a-18b174c8be27",
+          "in_service": true,
+          "name": "Trib 1",
+          "node_id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "traffic",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": false
+        },
+        {
+          "description": "",
+          "direction": "in",
+          "format": "digital",
+          "id": "1c2a66ce-7c57-4a15-b000-0013fc0cab4d",
+          "in_service": true,
+          "name": "in 1",
+          "node_id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-in",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "both",
+          "format": "digital",
+          "id": "33cae8f8-332e-4549-bbcd-04ca7b08ce0a",
+          "in_service": true,
+          "name": "West 1",
+          "node_id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+          "priority": 1,
+          "provisioned_ql": null,
+          "role": "traffic",
+          "selectable": true,
+          "signal": "STM-16",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "in",
+          "format": "digital",
+          "id": "4b617727-972f-4af8-82d8-594fe4017410",
+          "in_service": true,
+          "name": "in 2",
+          "node_id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-in",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "5ad6335f-69b9-46b8-8a98-6da546f67158",
+          "in_service": true,
+          "name": "out 1",
+          "node_id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "both",
+          "format": "digital",
+          "id": "66e834ce-85c7-4c91-9ca5-5ff70f349d02",
+          "in_service": true,
+          "name": "Trib 2",
+          "node_id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "traffic",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": false
+        },
+        {
+          "description": "",
+          "direction": "out",
+          "format": "digital",
+          "id": "689f1a45-82c5-4c46-a0ec-b5b33228b1be",
+          "in_service": true,
+          "name": "out 2",
+          "node_id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+          "priority": null,
+          "provisioned_ql": null,
+          "role": "reference-out",
+          "selectable": true,
+          "signal": "2048 kbit/s",
+          "ssm": true
+        },
+        {
+          "description": "",
+          "direction": "both",
+          "format": "digital",
+          "id": "a7c8a1b9-716d-4b39-ae44-6c68d9af6660",
+          "in_service": true,
+          "name": "East 1",
+          "node_id": "4e6fb6ea-16a1-4a84-ad88-0fc588131058",
+          "priority": 2,
+          "provisioned_ql": null,
+          "role": "traffic",
+          "selectable": true,
+          "signal": "STM-16",
+          "ssm": true
+        }
+      ],
+      "version": "1.0"
+    }
+  ],
+  "exported_at": "2026-11-12T20:21:52+00:00",
+  "format": "timearchitect.catalogue",
+  "release": "1.0.0.dev87 (TimeSim 1.0.0.dev1, TimeOptimiser 1.0.0.dev1). © 2026 Timeworx. All rights reserved.",
+  "schema_version": "1.0"
+}
