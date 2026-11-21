@@ -2,10 +2,10 @@
 
 Device models for Time Architect, by Timeworx, made with Time Architect 1.0.0.dev87.
 
-Each model is a catalogue file that Time Architect's Catalogue page imports as it stands (Import, to become
-**Import file**). `library.json` lists every model: its name, kind, vendor, version, file, SHA-256 and the release of
-Time Architect it was made with. Time Architect's **Import from library** and the Timeworx website's list will read
-it.
+Each model is a catalogue file, signed by Timeworx when released. `library.json` lists every model: its name, kind,
+vendor, version, file, SHA-256, state and the release of Time Architect it was made with. Time Architect 2.0.0.dev3
+and later list the Release models on the Catalogue page's **Import from on-line library**; without web access, a
+model downloaded from `models/` is brought in with **Import file**.
 
 | Model | Kind | Vendor | Version |
 | --- | --- | --- | --- |
@@ -15,7 +15,6 @@ it.
 The models hold a device's timing figures and ports as its makers' documents give them, each naming its source.
 Vendors' documents themselves are never published here.
 
-This library is a first trial, set up on 12 Nov 2026 for testing. Its layout may change when Time Architect's WP38,
-the device model library, is sized.
+Both models were released by Timeworx on 21 Nov 2026.
 
 © 2026 Timeworx. All rights reserved.

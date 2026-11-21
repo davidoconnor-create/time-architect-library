@@ -405,5 +405,13 @@
   "exported_at": "2026-11-12T20:21:52+00:00",
   "format": "timearchitect.catalogue",
   "release": "1.0.0.dev87 (TimeSim 1.0.0.dev1, TimeOptimiser 1.0.0.dev1). © 2026 Timeworx. All rights reserved.",
-  "schema_version": "1.0"
+  "schema_version": "1.0",
+  "timeworx_signature": {
+    "format": "timeworx-release-signature 1.0",
+    "kind": "time-architect-device-model",
+    "key": "d295cb49b402910c",
+    "signed": "2026-11-21",
+    "by": "Timeworx Licence 1.0.0.dev2",
+    "signature": "e0Io6z2gRzM6FqVv3r8eSp9QC0G3h+U15vERzwnCIQDvnRv08JJ2RTwNJ82H79hxKwzxlf+1nk42WbJ5JpV5Cw=="
+  }
 }
